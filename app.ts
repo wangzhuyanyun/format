@@ -1,5 +1,72 @@
 import path from 'path';
 import * as fs from 'fs/promises';
+//add templateId，divisionName，formulas，tradeType to items
+async function formatItems() {
+  const templatePath = path.join(__dirname, './data2.14/customer-templates.json');
+  const itemsPath = path.join(__dirname, './data2.14/default_items_v5.json');
+  const csiPath = path.join(__dirname, './data2.14/CSI_TO_Divsion.json');
+ // const tradePath = path.join(__dirname, './data2.14/csi_to_trade_type_map_v1.json');
+  const formulasPath = path.join(__dirname, './data2.14/formulas_v2.14.json');
+  const outputPath = path.join(__dirname, './data2.14/template_items_v2.14.json');
+  const outputPath1 = path.join(__dirname, './data2.14/new_template_items_v2.14.json');
+  
+  const [customerTemplates,templateItems, csiData,formulasData] = await Promise.all([
+    fs.readFile(templatePath, 'utf-8').then(JSON.parse),
+    fs.readFile(itemsPath, 'utf-8').then(JSON.parse),
+    fs.readFile(csiPath, 'utf-8').then(JSON.parse),
+    //fs.readFile(tradePath, 'utf-8').then(JSON.parse),
+    fs.readFile(formulasPath, 'utf-8').then(JSON.parse),
+  ]);
+  // Process each room's items
+  const updatedTemplateItems = Object.fromEntries(
+    Object.entries(templateItems).map(([room, items]) => {
+      const updatedItems = (items as any[]).map((item) => {
+        const csiPrefix = item.CSI_ID?.substring(0, 2);
+        const division = csiData.divisions.find(
+          (div) => div.number === csiPrefix,
+        ); 
+        // const trade=tradeData.find(
+        //   (trade) => trade.id === item.CSI_ID,
+        // )
+        //const tradeType=trade?.trade_type||'';
+        const template = customerTemplates.find((t) => t.roomType === room);
+        const templateId = template ? template._id : '';
+        const normalizedCsiSection = item.CSI_ID.replace(/\s+/g, ''); // 去除空格
+        // 先尝试完整匹配
+        let formulasItem = formulasData.find(
+         (f) => f.csiSection.replace(/\s+/g, '') === normalizedCsiSection
+       );
+       
+       // 如果没找到，再尝试4位匹配
+       if (!formulasItem) {
+         formulasItem = formulasData.find(
+           (f) => f.csiSection.replace(/\s+/g, '').startsWith(normalizedCsiSection.substring(0, 4))
+         );
+       }
+       const formula=item.formula;
+       const unit = item.output_variable === 'lengthLF' ? 'LF' : item.output_variable === 'qtyEach' ? 'EACH' : item.output_variable === 'areaSF' ? 'SQFT' : 'LBS';
+        formulasItem.formulas[unit] = formula;
+        const formulas = {...formulasItem.formulas};
+        const tradeType=formulasItem.tradeType||'';
+        return {
+          csiSection: item.CSI_ID,
+          name: item.Line_Item_Name,
+          divisionName: division ? division.title : 'Unknown',
+          unit:unit,
+          formulas: formulas || {},
+          tradeType:tradeType,
+          materialType: 'item',
+          templateId: templateId,
+        };
+      });
+      return [room, updatedItems];
+    }),
+  );
+  const processedData = Object.values(updatedTemplateItems).flat();
+  await fs.writeFile(outputPath, JSON.stringify(updatedTemplateItems, null, 2));
+  await fs.writeFile(outputPath1, JSON.stringify(processedData, null, 2));
+  return updatedTemplateItems;
+}
 //add divisionName to items
 async function addDivisionNameToItems() {
   const templatePath = path.join(__dirname, './data2.5/data2.5/template-items.json');
@@ -144,9 +211,9 @@ async function addtenplateIdAssemblies() {
           const itemDivision = csiData.divisions.find(
             (div) => div.number ===  it.CSI_ID?.substring(0, 2),
           );
-          const itemTradeType=tradeData.find(
-            (trade) => trade.id === it.CSI_ID,
-          )
+          // const itemTradeType=tradeData.find(
+          //   (trade) => trade.id === it.CSI_ID,
+          // )
         const normalizedCsiSection = it.CSI_ID.replace(/\s+/g, ''); // 去除空格
          // 先尝试完整匹配
          let formulasItem = formulasData.find(
@@ -169,15 +236,17 @@ async function addtenplateIdAssemblies() {
         const formula=it.formula;
         const unit = it.output_variable === 'lengthLF' ? 'LF' : it.output_variable === 'qtyEach' ? 'EACH' : it.output_variable === 'areaSF' ? 'SQFT' : 'LBS';
          formulasItem.formulas[unit] = formula;
+         const formulas = {...formulasItem.formulas};
+         const tradeType=formulasItem.tradeType||'';
         const data={
             assemblyId: item.assemblyId,
             name:it.Line_Item_Name,
             showName:it.show_name,
             csiSection:it.CSI_ID,
             divisionName:itemDivision.title||'',
-            tradeType:itemTradeType.trade_type,
+            tradeType:tradeType,
             unit:unit,
-            formulas: formulasItem ? formulasItem.formulas : {},
+            formulas: formulas|| {},
             materialType: 'assembly-item',
           }
         const dataCopy = JSON.parse(JSON.stringify(data));
@@ -207,10 +276,10 @@ const processedData = Object.values(updatedTemplateAsemblies).flat();
 }
 //format equation
 async function convertCsiToFormulas() {
-  const csiPath = path.join(__dirname, './data2.5/csi_to_equation_map_v3.json');
+  const csiPath = path.join(__dirname, './data2.14/csi_to_equation_map_v1.json');
  // const csiPath = path.join(__dirname, './data2.5/csi_to_equation_map_v1.json');
  // const outputPath = path.join(__dirname, './data2.5/formulas.json');
-  const outputPath = path.join(__dirname, './data2.5/formulas_v3.json');
+  const outputPath = path.join(__dirname, './data2.14/formulas_v2.14.json');
 
   // 读取源文件
   const csiData = await fs.readFile(csiPath, 'utf-8').then(JSON.parse);
@@ -348,11 +417,12 @@ async function generateNewJsonFromTemplateItems() {
   await fs.writeFile(newFilePath, JSON.stringify(processedData, null, 2));
   return processedData;
 }
+
 //f;
 // 执行转换
 
 // 执行更新
-updateItemsWithFormulas()
+formatItems()
   .then(() => {
     console.log('更新完成');
     process.exit(0); // 终止程序

@@ -1,0 +1,1298 @@
+{
+    "Attic": [
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "Custom Hardwood Exterior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "23 34 00",
+            "Line_Item_Name": "14', 1HP 240 Volt Three-Phase Ceiling Fan",
+            "output_variable": "qtyEach",
+            "formula": "P / 14"
+        },
+        {
+            "CSI_ID": "07 21 00",
+            "Line_Item_Name": "2\" 2X4' R-7.7 Foam Insulating Sheathing",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Ceiling Flat Interior Paint and Primer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "1-Light Etched/Painted Glass Bathroom Vanity Light",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "06 16 00",
+            "Line_Item_Name": "23/32\" 4X8' Tongue & Groove Underlayment Plywood",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "27 15 00",
+            "Line_Item_Name": "1,000' 24 AWG 4-Pair UTP Cat5E Data Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "30in x 48in Aluminum Casement Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "22 13 00",
+            "Line_Item_Name": "PVC Sewer Pipe 4\" Diameter",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "08 60 00",
+            "Line_Item_Name": "Fixed Skylight 2' x 4'",
+            "output_variable": "areaSF",
+            "formula": "8"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "15 Amp 125 Volt Tamper Resistant Self-Test GFCI Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "03 30 00",
+            "Line_Item_Name": "10' X 25' 3.5 Mil Vapor Barrier",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ],
+    "Basement": [
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "15 Amp 125 Volt Tamper Resistant Self-Test GFCI Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1-1/6\" X 3-1/2\" MDF Door and Window Casing",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 32 00",
+            "Line_Item_Name": "60\" X 80\" Clad Wood Left-Hand 4-Lite Patio Door W/ White Interior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 8-Space 16-Circuit Indoor Main Lug Load Center",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "07 21 00",
+            "Line_Item_Name": "1-1/2\" 2X4' R-5.78 Rigid Foam Insulation Board",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Ceiling Flat Interior Paint and Primer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 68 00",
+            "Line_Item_Name": "1/2\" 6 lb. Density Carpet Padding",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 65 00",
+            "Line_Item_Name": "5.2\" X 36\" X Click/Lock Luxury Vinyl Plank Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "27 15 00",
+            "Line_Item_Name": "1,000' 24 AWG 4-Pair UTP Cat5E Data Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "03 30 00",
+            "Line_Item_Name": "10' X 25' 3.5 Mil Vapor Barrier",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "22 14 00",
+            "Line_Item_Name": "6-inch PVC Storm Drain Pipe",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "1' X 4' 50 Watt4000 Lumens Dimmable Integrated LED Edge-Lit Flat Panel Flush Mount-Light Changing Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 14 00",
+            "Line_Item_Name": "1/4 HP Submersible Thermoplastic Sump Pump",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "06 11 00",
+            "Line_Item_Name": "1\" X 3 X 96\" Furring Strip",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        }
+    ],
+    "Bathroom": [
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "15 Amp 125 Volt Tamper Resistant Self-Test GFCI Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior/Exterior Primer Heavy-Duty Sealer and Stain Blocker",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "23 34 00",
+            "Line_Item_Name": "18', 1HP 240 Volt Three-Phase Ceiling Fan",
+            "output_variable": "qtyEach",
+            "formula": "P / 18"
+        },
+        {
+            "CSI_ID": "09 30 00",
+            "Line_Item_Name": "12\" X 12\" Peel and Stick Vinyl Subway Backsplash Tile Backsplash",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 83 00",
+            "Line_Item_Name": "Standard Wall Mirror",
+            "output_variable": "areaSF",
+            "formula": "A / 10"
+        },
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "24\" X 96\" Smooth Flush Unfinished Right-Handed Solid Core Single Prehung Interior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 29 00",
+            "Line_Item_Name": "1/4\" 4X4' Cement Board",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "14\" Rough-In 1.28 GPF Single Flush Round Toilet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "10 28 00",
+            "Line_Item_Name": "10-Bar Stainless Steel Wall Mounted Towel Warmer Rack",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "3-Jet 1-Spray Square Hand Shower and Showerhead Shower System",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "60\" X 72\" Glue-Up Alcove Shower Wall and Base",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "18\" X 20\" X 39\" Bathroom Vanity Cabinet with Top",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "1-Light Etched/Painted Glass Bathroom Vanity Light",
+            "output_variable": "qtyEach",
+            "formula": "P / 6"
+        }
+    ],
+    "Bedroom": [
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "15 Amp 125 Volt Tamper Resistant Self-Test GFCI Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 3-1/2\" X 96\" MDF Primed Baseboard Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 68 00",
+            "Line_Item_Name": "Berber Carpet",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "24\" X 80\" 6-Panel Pine Unfinished Interior Closet Bifold Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 65 00",
+            "Line_Item_Name": "5.2\" X 36\" X Click/Lock Luxury Vinyl Plank Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "30\" X 96\" Right-Hand Smooth Solid Core Molded Composite MDF Single Prehung Interior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "10' Indoor Aluminum Ceiling Fan",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "5 gal. Ceiling Flat Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "Coaxial Cable Wall Jack",
+            "output_variable": "qtyEach",
+            "formula": "P / 15"
+        }
+    ],
+    "Closet": [
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 3-1/2\" X 96\" MDF Primed Baseboard Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "24\" X 80\" 6-Panel Pine Unfinished Interior Closet Bifold Door",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "1/2\" X 7-1/2\" X Random Length Engineered Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "2' 150 Watt Integrated LED Light Strip-Light Fixture, 4000K",
+            "output_variable": "qtyEach",
+            "formula": "P / 6"
+        },
+        {
+            "CSI_ID": "06 25 00",
+            "Line_Item_Name": "3/4\" X 12\" X 4' Square-Edge Shelving MDF Board",
+            "output_variable": "areaSF",
+            "formula": "A / 10"
+        }
+    ],
+    "Dining": [
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "45\" X 34.5\" Blind Base Cabinet",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "26 27 26",
+            "Line_Item_Name": "20 Amp Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Ceiling Flat Interior Paint and Primer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "40\" 8-Light Hanging Chandelier Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 40"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 62 19",
+            "Line_Item_Name": "15-1/2\" X 46-2/5\" Laminate Flooring Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ],
+    "Garage": [
+        {
+            "CSI_ID": "08 14 00",
+            "Line_Item_Name": "2 HPC Drive Garage Door Opener and 3-Button",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 27 26",
+            "Line_Item_Name": "20 Amp Duplex Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "33 61 00",
+            "Line_Item_Name": "PEX Tubing 1/2\"",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 36 00",
+            "Line_Item_Name": "7' X 16' 6.5 R-Value Insulated Ultra-Grain Garage Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "360-Degree Motion Pir Voltage High Bay Sensor Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 15"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "120/277-Volt Wall Switch Occupancy Sensor",
+            "output_variable": "qtyEach",
+            "formula": "P / 15"
+        },
+        {
+            "CSI_ID": "08 11 00",
+            "Line_Item_Name": "32\" X 80\" Right-Hinge Security Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Ceiling Flat Interior Paint and Primer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ],
+    "Half Bathroom": [
+        {
+            "CSI_ID": "09 62 19",
+            "Line_Item_Name": "15-1/2\" X 46-2/5\" Laminate Flooring Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 3-1/2\" MDF Primed Fiberboard Baseboard Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior/Exterior Floor Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 30 00",
+            "Line_Item_Name": "1\" Hexagon 11.61\" X 11.81\" Marble Mosaic Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 16 00",
+            "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "10 28 00",
+            "Line_Item_Name": "18\" Towel Bar Toilet Paper Holder Towel Ring Bath Accessory",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "0.75\" X 22\" X 25\" Engineered Marble Vanity Top",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "0.8 GPF Single Flush Ultra-High-Efficiency Elongated Toilet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "LED Recessed Lighting Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "0.5 GPM High Arch Gooseneck Bar Faucet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        }
+    ],
+    "Kitchen": [
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "12\" W 1-Door Base Cabinet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Semi-Gloss Interior Cabinet and Trim Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "\n1\n"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "1/2\" PEX X 3/4\" MHT Brass 45-Degree Multi-Turn Hose Bibb",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "0.28\" X 5\" X Random Length Engineered Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "0.9 cu. ft. 1000 Watt Countertop Commercial Microwave",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "12 36 00",
+            "Line_Item_Name": "25\" X 8' Countertop",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "15\" Drop-In Single Basin Stainless Steel Kitchen Sink",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "1.5 GPM Single Hole Kitchen Faucet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "12\" 3 Watt LED Under Cabinet Linkable Light",
+            "output_variable": "qtyEach",
+            "formula": "P / 4"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "20\" Convertible Under Cabinet Range Hood",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "12\" Built-In Gas Stove Lpg Gas Cooktop",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "24\" Built-In Single Gas Wall Oven",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "15 cu. ft. 4-Door French Door Refrigerator",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "18-1/2\" Solid Surface Backsplash",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        }
+    ],
+    "Laundry": [
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "1' X 4' 50 Watt Dimmable 3800 Lumens Integrated LED Edge-Lit Flat Panel Flush Mount Ceiling Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "26 24 00",
+            "Line_Item_Name": "1-15 Amp 1-20 Amp Single-Pole Tandem Ctl Circuit Breaker",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "1/2\" CPVC Plastic Drain Washing Machine Outlet Box",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "33 61 00",
+            "Line_Item_Name": "PEX Tubing 1/2\"",
+            "output_variable": "areaSF",
+            "formula": "I'm sorry, but it seems there is a mismatch between the line item \"PEX Tubing 1/2\"\" and the output variable \"areaSF\". PEX tubing is typically measured in linear feet (lengthLF) rather than square feet (areaSF). Could you please confirm the output variable or provide additional context?"
+        },
+        {
+            "CSI_ID": "08 16 00",
+            "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "12 32 00",
+            "Line_Item_Name": "12\" W 1-Door Base Cabinet",
+            "output_variable": "qtyEach",
+            "formula": "P / 12"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "22 41 00",
+            "Line_Item_Name": "0.5 GPM High Arch Gooseneck Bar Faucet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 65 00",
+            "Line_Item_Name": "12\" X 24\" Waterproof Click/Lock Vinyl Tile Flooring Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "11 30 13",
+            "Line_Item_Name": "1.57 cu. ft. 23.5\" High-Efficiency Vented/Ventless Electric Washer Dryer Combo",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        }
+    ],
+    "Living Room": [
+        {
+            "CSI_ID": "06 25 00",
+            "Line_Item_Name": "1\" X 12\" X 8' Bullnose Shelving MDF Board",
+            "output_variable": "areaSF",
+            "formula": "A / 50"
+        },
+        {
+            "CSI_ID": "09 68 00",
+            "Line_Item_Name": "18\" X 18\" Residential Carpet Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "\nP / 20\n"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1X6-11/16\" X 5-1/2\" X 96\" S4S Molding Board",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "2 gal. Ceiling Flat Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "10 31 00",
+            "Line_Item_Name": "23\" Electric Fireplace Insert",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "0.28\" X 5\" X Random Length Engineered Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "27 15 00",
+            "Line_Item_Name": "18 RG6 Dual Shield CU CATV CM/CL2 Coaxial Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 56 00",
+            "Line_Item_Name": "1-Light 8.25\" Flush Mount Ceiling Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        }
+    ],
+    "Utility Area": [
+        {
+            "CSI_ID": "23 81 00",
+            "Line_Item_Name": "1.5 Ton 14.5 SEER Heat Pump with Air Handler",
+            "output_variable": "qtyEach",
+            "formula": "A / 600"
+        },
+        {
+            "CSI_ID": "23 52 00",
+            "Line_Item_Name": "123,000 BTU Condensing Gas Water Boiler",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "0.79' 4-Light LED Ceiling Fixed Track Lighting Kit Light Fixture",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "33 61 00",
+            "Line_Item_Name": "PEX Tubing 1/2\"",
+            "output_variable": "areaSF",
+            "formula": "I'm sorry, but it seems there is a mismatch between the line item \"PEX Tubing 1/2\"\" and the output variable \"areaSF\". PEX tubing is typically measured in linear feet (lengthLF) rather than square feet (areaSF). Could you please confirm the output variable or provide additional context?"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "22 11 00",
+            "Line_Item_Name": "1\" IPS X 100' DR 11 Underground Polyethylene Gas Pipe",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "22 11 00",
+            "Line_Item_Name": "1\" X 100' IPS 100 PSI UTY Polyethylene Pipe",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "22 11 00",
+            "Line_Item_Name": "1\" X 100' PEX Tubing Potable Water Pipe",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 16 00",
+            "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "23 31 00",
+            "Line_Item_Name": "10\" X 5' Round Ductwork",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "23 34 00",
+            "Line_Item_Name": "12\" Three Speed Exhaust Shutter Fan 1,100 CFM 115V",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "7.48\" Antimicrobial Waterproof Engineered Oak Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "23 09 00",
+            "Line_Item_Name": "Standard T5 Progammable Thermostat",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "23 83 00",
+            "Line_Item_Name": "18kW Electric Instantaneous Water Heater",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        }
+    ],
+    "Mudroom": [
+        {
+            "CSI_ID": "09 65 00",
+            "Line_Item_Name": "12\" X 12\" Vinyl Peel and Stick Floor Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 3-1/2\" MDF Primed Fiberboard Baseboard Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "11\" Recessed Integrated LED Trim Kit Round Fixture 3000K",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 16 00",
+            "Line_Item_Name": "36\" X 80\" 6-Panel Right-Hand Inswing Primed Smooth Fiberglass Prehung Front Exterior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ],
+    "Office": [
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 3-1/2\" MDF Primed Fiberboard Baseboard Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1X4 8' Square Edge Pine Board",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "09 68 00",
+            "Line_Item_Name": "18\" X 18\" Residential Carpet Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "27 15 00",
+            "Line_Item_Name": "500' 2X Cat5E 24-Gauge/8-Conductor 2X RG6 2X 62.5/Multi-Media Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 4-Space 4-Circuit Temporary GFCI Power Outlet",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "0.28\" X 5\" X Random Length Engineered Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 16 00",
+            "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 51 00",
+            "Line_Item_Name": "11\" Recessed Integrated LED Trim Kit Round Fixture 3000K",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        }
+    ],
+    "Overall": [
+        {
+            "CSI_ID": "23 81 00",
+            "Line_Item_Name": "2.0 Ton 14 SEERHeat Pump",
+            "output_variable": "qtyEach",
+            "formula": "A / 1000"
+        },
+        {
+            "CSI_ID": "07 21 13",
+            "Line_Item_Name": "24\" X 25' Double Reflective Insulation Roll",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1/2\" X 10' PVC Inside Corner Self-Adhesive Flexible Caulk and Trim Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior/Exterior Multi-Surface Stain-Blocking Primer and Sealer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "07 72 00",
+            "Line_Item_Name": "10\" X 13\" No-Caulk Vent Pipe Flashing",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "40 66 00",
+            "Line_Item_Name": "Cat6 Ethernet Cable",
+            "output_variable": "qtyEach",
+            "formula": "P / 100"
+        },
+        {
+            "CSI_ID": "07 71 00",
+            "Line_Item_Name": "2\" X 3\" Vinyl Downspout A-Elbow Fitting",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "03 30 00",
+            "Line_Item_Name": "Concrete 5000 PSI",
+            "output_variable": "unknownUnit",
+            "formula": "I'm sorry, but I cannot generate a formula without knowing the specific output variable (e.g., lengthLF, areaSF, qtyEach, weightLBS). Please provide the output variable for the scenario."
+        },
+        {
+            "CSI_ID": "23 31 00",
+            "Line_Item_Name": "10\" X 5' Round Ductwork",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "08 11 00",
+            "Line_Item_Name": "30\" X 80\" 6-Panel Left Hand Inswing Primed Steel Prehung Front Exterior Door",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "06 16 00",
+            "Line_Item_Name": "3/4\" 4X8' Ground Contact Pressure Treated Pine Rated Sheathing",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "07 92 00",
+            "Line_Item_Name": "Silicone Joint Sealant",
+            "output_variable": "areaSF",
+            "formula": "A / 100"
+        },
+        {
+            "CSI_ID": "03 11 00",
+            "Line_Item_Name": "Plywood Form Panels 3/4\" x 4' x 8'",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "04 22 00",
+            "Line_Item_Name": "37 lb. 4\" X 12\" X 12\" Pad Block",
+            "output_variable": "qtyEach",
+            "formula": "A / 4"
+        },
+        {
+            "CSI_ID": "07 71 00",
+            "Line_Item_Name": "6\" Half Round Aluminum Gloss 80-Degree End Cap Fitting",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 11 00",
+            "Line_Item_Name": "1\" Hinged Split Ring Pipe Hanger",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 11 00",
+            "Line_Item_Name": "1/2\" X 300' Polyethylene Tubing PEX A Non-Barrier Pipe and Tubing",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "27 15 00",
+            "Line_Item_Name": "Cat6 Solid Plenum 1,000' 23-Awg 4-Pair Unshielded Twisted Pair Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "26 05 00",
+            "Line_Item_Name": "1,000' 1/0 Stranded Al Use-2 Cable",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "07 26 00",
+            "Line_Item_Name": "10' X 100' 6 Mil. Vapor Barrier",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "1\" Load Center Filler Plates",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "22 14 00",
+            "Line_Item_Name": "1/2 HP 2\" Electric Submersible Utility Pump",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "26 56 00",
+            "Line_Item_Name": "1-Light 6.5\" X 8\" Solar Integrated LED Hanging Outdoor UV Lantern",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "03 21 00",
+            "Line_Item_Name": "#3 Rebar 3/8\" X 20'",
+            "output_variable": "weightLBS",
+            "formula": "P * 0.668"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "15 Amp Mc4-Comparable Pv In-Line Fuse",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "26 05 00",
+            "Line_Item_Name": "1\" X 10' Electrical Metallic Tubing EMT Conduit",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "10' X 14' At 100' sq. ft. 8-Degree Wall Mount Occupancy Sensor Off",
+            "output_variable": "qtyEach",
+            "formula": "A / 100"
+        },
+        {
+            "CSI_ID": "06 22 00",
+            "Line_Item_Name": "1-1/4\" X 6-3/4\" X 96\" Pine Primed Finger-Joint Sill Molding",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "07 72 00",
+            "Line_Item_Name": "Aluminum Roof Vent",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        },
+        {
+            "CSI_ID": "07 31 00",
+            "Line_Item_Name": "Starter Strip Shingles",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "31 25 00",
+            "Line_Item_Name": "Silt Fence",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "09 29 00",
+            "Line_Item_Name": "2-1/2\" X 2-1/2\" X 120\" Vinyl Stucco Corner Bead",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "32 05 00",
+            "Line_Item_Name": "EIFS Base Coat",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "100 Amp 1-Space 3-Circuit Meter Socket Temporary Power",
+            "output_variable": "qtyEach",
+            "formula": "1"
+        },
+        {
+            "CSI_ID": "01 50 00",
+            "Line_Item_Name": "Temporary Construction Fence",
+            "output_variable": "areaSF",
+            "formula": "\nH * P\n"
+        },
+        {
+            "CSI_ID": "03 15 00",
+            "Line_Item_Name": "1-5/8\" X 6\" Steel Tie",
+            "output_variable": "qtyEach",
+            "formula": "P / 4"
+        },
+        {
+            "CSI_ID": "31 24 00",
+            "Line_Item_Name": "Compacted Fill Material",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "08 50 00",
+            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
+            "output_variable": "qtyEach",
+            "formula": "P / 20"
+        }
+    ],
+    "Staircase": [
+        {
+            "CSI_ID": "09 68 00",
+            "Line_Item_Name": "9\" X 36\" Commercial/Residential Carpet Tile",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "06 20 00",
+            "Line_Item_Name": "Crown Molding 3-1/2\"",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "06 11 00",
+            "Line_Item_Name": "8' White Composite Rail and Round Baluster",
+            "output_variable": "lengthLF",
+            "formula": "P"
+        },
+        {
+            "CSI_ID": "26 27 00",
+            "Line_Item_Name": "1.5 Amp Motion Sensor Single-Pole and Multi-Location",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "06 11 00",
+            "Line_Item_Name": "12-1/2\" X 12-1/2\" X 47-3/4\" Polyurethane Newel Post",
+            "output_variable": "qtyEach",
+            "formula": "P / 10"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior Paint",
+            "output_variable": "areaSF",
+            "formula": "H * P"
+        },
+        {
+            "CSI_ID": "06 11 00",
+            "Line_Item_Name": "5-Step Cedar Tone Ground Contact Pressure Treated Pine Stair Stringer",
+            "output_variable": "qtyEach",
+            "formula": "P / 6"
+        },
+        {
+            "CSI_ID": "09 64 00",
+            "Line_Item_Name": "1/2\" X 7\" X Random Length Engineered Hardwood Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "26 56 00",
+            "Line_Item_Name": "4 Watt Vertical 1-Light Line Voltage LED Stair Light",
+            "output_variable": "qtyEach",
+            "formula": "P / 6"
+        },
+        {
+            "CSI_ID": "06 11 00",
+            "Line_Item_Name": "3.75\" X 48\" Non-Slip Aluminum Tread",
+            "output_variable": "qtyEach",
+            "formula": "P / 4"
+        }
+    ],
+    "Demolition": [
+        {
+            "CSI_ID": "01 74 00",
+            "Line_Item_Name": "Construction Site Waste Bin",
+            "output_variable": "qtyEach",
+            "formula": "A / 100"
+        },
+        {
+            "CSI_ID": "02 41 00",
+            "Line_Item_Name": "Concrete Slab Demolition",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "31 10 00",
+            "Line_Item_Name": "Brush and Tree Removal",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ],
+    "Hallway": [
+        {
+            "CSI_ID": "09 65 00",
+            "Line_Item_Name": "Vinyl Sheet Flooring",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "09 91 00",
+            "Line_Item_Name": "1 gal. Interior/Exterior Multi-Surface Stain-Blocking Primer and Sealer",
+            "output_variable": "areaSF",
+            "formula": "A"
+        },
+        {
+            "CSI_ID": "06 73 00",
+            "Line_Item_Name": "1\" x 5-1/2\" x 16' Pebble Grey Grooved Edge Capped Composite Decking Board",
+            "output_variable": "areaSF",
+            "formula": "A"
+        }
+    ]
+}
