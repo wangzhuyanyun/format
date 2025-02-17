@@ -3,12 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "dev": " tsx app.ts"
+    "dev": " nodemon --exec tsx app.ts"
   },
   "author": "wzyy",
   "license": "ISC",
-  "devDependencies":{
-    "tsx": "^4.19.2",
-    "typescript": "^5.7.2"
+  "type": "module",
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.8",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa-static": "^4.0.2",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^20.4.2",
+    "tsx": "^3.12.7",
+    "typescript": "^5.3.3"
   }
 }

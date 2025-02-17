@@ -101,7 +101,7 @@
     "showName": "Underlayment (Building Paper)",
     "csiSection": "07 25 00",
     "divisionName": "Thermal and Moisture Protection",
-    "tradeType": "Exterior Insulation and Finish Systems (EIFS)",
+    "tradeType": "EIFS",
     "unit": "SQFT",
     "formulas": {
       "LF": "P * 1",
@@ -165,7 +165,7 @@
     "showName": "Insulation (Fiberglass Batts)",
     "csiSection": "07 21 00",
     "divisionName": "Thermal and Moisture Protection",
-    "tradeType": "Exterior Insulation and Finish Systems (EIFS)",
+    "tradeType": "EIFS",
     "unit": "SQFT",
     "formulas": {
       "LF": "P * 1",
@@ -202,7 +202,7 @@
     "formulas": {
       "LF": "P",
       "EACH": "1",
-      "SQFT": "A",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"
@@ -218,7 +218,7 @@
     "formulas": {
       "LF": "P * 0.20",
       "EACH": "1",
-      "SQFT": "A",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"
@@ -293,7 +293,7 @@
     "showName": "Building Wrap",
     "csiSection": "07 25 00",
     "divisionName": "Thermal and Moisture Protection",
-    "tradeType": "Exterior Insulation and Finish Systems (EIFS)",
+    "tradeType": "EIFS",
     "unit": "SQFT",
     "formulas": {
       "LF": "P * 1",
@@ -325,7 +325,7 @@
     "showName": "Fiberglass Batts (2x6 Cavity)",
     "csiSection": "07 21 00",
     "divisionName": "Thermal and Moisture Protection",
-    "tradeType": "Exterior Insulation and Finish Systems (EIFS)",
+    "tradeType": "EIFS",
     "unit": "SQFT",
     "formulas": {
       "LF": "P * 1",
@@ -344,7 +344,7 @@
     "tradeType": "Drywall",
     "unit": "SQFT",
     "formulas": {
-      "LF": "P * 0.20",
+      "LF": "P * 1",
       "EACH": "1",
       "SQFT": "P * H",
       "LBS": "A * 1.5"
@@ -362,7 +362,7 @@
     "formulas": {
       "LF": "P",
       "EACH": "1",
-      "SQFT": "P * H",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"
@@ -378,7 +378,7 @@
     "formulas": {
       "LF": "P * 0.20",
       "EACH": "1",
-      "SQFT": "P * H",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"
@@ -456,7 +456,7 @@
     "tradeType": "Drywall",
     "unit": "SQFT",
     "formulas": {
-      "LF": "P * 0.20",
+      "LF": "P * 1",
       "EACH": "1",
       "SQFT": "P * H * 2",
       "LBS": "A * 1.5"
@@ -474,7 +474,7 @@
     "formulas": {
       "LF": "P ",
       "EACH": "1",
-      "SQFT": "P * H * 2",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"
@@ -490,7 +490,7 @@
     "formulas": {
       "LF": "P * 0.20",
       "EACH": "1",
-      "SQFT": "P * H * 2",
+      "SQFT": "P * H + A",
       "LBS": "A * 1.5"
     },
     "materialType": "assembly-item"

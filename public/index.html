@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>File Upload</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.6;
+        padding: 2rem;
+        background: #f5f5f5;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #2c3e50;
+        margin-bottom: 2rem;
+      }
+      .form-group {
+        margin-bottom: 1.5rem;
+      }
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+      }
+      input[type="file"] {
+        width: 100%;
+        padding: 0.5rem;
+        border: 2px dashed #ddd;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+      }
+      select {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background: white;
+        font-size: 1rem;
+      }
+      button {
+        width: 100%;
+        padding: 1rem;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      button:hover {
+        background: #2980b9;
+      }
+      .status {
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 5px;
+        display: none;
+      }
+      .status.success {
+        background: #d4edda;
+        color: #155724;
+      }
+      .status.error {
+        background: #f8d7da;
+        color: #721c24;
+      }
+      .default-file-info {
+        font-size: 0.9em;
+        color: #666;
+        margin-top: 0.3rem;
+      }
+      .file-status {
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 0.8em;
+        margin-left: 5px;
+      }
+      .file-exists {
+        background: #d4edda;
+        color: #155724;
+      }
+      .file-missing {
+        background: #f8d7da;
+        color: #721c24;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>数据处理</h1>
+      <form id="uploadForm" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="method">选择处理方法:</label>
+          <select id="method" name="method" required>
+            <option value="">请选择处理方法</option>
+            <option value="formatTemplateItems">format template items</option>
+            <option value="formatTemplateAssemblies">
+              format template assemblies
+            </option>
+            <option value="formatEquationsToFormulas">
+              format equations to formulas
+            </option>
+            <option value="updateItemsWithFormulas">用公式更新项目</option>
+          </select>
+        </div>
+
+        <div
+          class="file-upload-group"
+          data-file="customerTemplates"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="customerTemplates"
+              >templates.json: (可选，默认使用配置文件)</label
+            >
+            <input
+              type="file"
+              id="customerTemplates"
+              name="customerTemplates"
+            />
+            <div class="default-file-info" data-file="customerTemplates"></div>
+          </div>
+        </div>
+
+        <div
+          class="file-upload-group"
+          data-file="templateItems"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="templateItems"
+              >default_items.json: (可选，默认使用配置文件)</label
+            >
+            <input type="file" id="templateItems" name="templateItems" />
+            <div class="default-file-info" data-file="templateItems"></div>
+          </div>
+        </div>
+        <div
+          class="file-upload-group"
+          data-file="templateAssemblies"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="templateAssemblies"
+              >default_assemblies.json: (可选，默认使用配置文件)</label
+            >
+            <input
+              type="file"
+              id="templateAssemblies"
+              name="templateAssemblies"
+            />
+            <div class="default-file-info" data-file="templateAssemblies"></div>
+          </div>
+        </div>
+        <div
+          class="file-upload-group"
+          data-file="csiData"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="csiData"
+              >csi_to_divsion.json:(可选，默认使用配置文件)</label
+            >
+            <input type="file" id="csiData" name="csiData" />
+            <div class="default-file-info" data-file="csiData"></div>
+          </div>
+        </div>
+
+        <div
+          class="file-upload-group"
+          data-file="equationsData"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="equationsData"
+              >csi_to_equation_map.json:(可选，默认使用配置文件)</label
+            >
+            <input type="file" id="equationsData" name="equationsData" />
+            <div class="default-file-info" data-file="equationsData"></div>
+          </div>
+        </div>
+        <div
+          class="file-upload-group"
+          data-file="tradeData"
+          style="display: none"
+        >
+          <div class="form-group">
+            <label for="tradeData"
+              >csi_to_trade_type_map.json:(可选，默认使用配置文件)</label
+            >
+            <input type="file" id="tradeData" name="tradeData" />
+            <div class="default-file-info" data-file="tradeData"></div>
+          </div>
+        </div>
+
+        <div class="form-group output-paths" id="outputPathGroup">
+          <label for="outputPath">输出路径 (可选):</label>
+          <input
+            type="text"
+            id="outputPath"
+            name="outputPath"
+            placeholder="默认为程序所在目录的output文件夹"
+            style="
+              width: 100%;
+              padding: 0.8rem;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+            "
+          />
+        </div>
+
+        <div
+          class="form-group output-paths"
+          id="extraOutputPathsGroup"
+          style="display: none"
+        >
+          <label for="assembliesPath">Assemblies输出文件名 (可选):</label>
+          <input
+            type="text"
+            id="assembliesPath"
+            name="assembliesPath"
+            placeholder="默认为assemblies.json"
+            style="
+              width: 100%;
+              padding: 0.8rem;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+              margin-bottom: 1rem;
+            "
+          />
+          <label for="assemblyItemsPath">AssemblyItems输出文件名 (可选):</label>
+          <input
+            type="text"
+            id="assemblyItemsPath"
+            name="assemblyItemsPath"
+            placeholder="默认为items.json"
+            style="
+              width: 100%;
+              padding: 0.8rem;
+              border: 1px solid #ddd;
+              border-radius: 5px;
+            "
+          />
+        </div>
+
+        <button type="submit">开始处理</button>
+      </form>
+      <div id="status" class="status"></div>
+    </div>
+
+    <script>
+      async function loadDefaultFilesInfo() {
+        try {
+          const response = await fetch("/default-files");
+          const defaultFiles = await response.json();
+
+          Object.entries(defaultFiles).forEach(([key, info]) => {
+            const infoDiv = document.querySelector(
+              `.default-file-info[data-file="${key}"]`
+            );
+            if (infoDiv) {
+              const status = info.exists
+                ? '<span class="file-status file-exists">可用</span>'
+                : '<span class="file-status file-missing">未找到</span>';
+              infoDiv.innerHTML = `默认文件: ${info.fileName} ${status}`;
+            }
+          });
+        } catch (error) {
+          console.error("Failed to load default files info:", error);
+        }
+      }
+
+      // 页面加载时获取默认文件信息
+      loadDefaultFilesInfo();
+
+      const methodFileMap = {
+        formatTemplateItems: [
+          "customerTemplates",
+          "templateItems",
+          "csiData",
+          "equationsData",
+        ],
+        formatTemplateAssemblies: [
+          "customerTemplates",
+          "templateAssemblies",
+          "csiData",
+          "tradeData",
+          "equationsData",
+        ],
+        formatEquationsToFormulas: ["equationsData"],
+        updateItemsWithFormulas: ["templateItems", "equationsData"],
+      };
+
+      document.getElementById("method").addEventListener("change", function () {
+        const selectedMethod = this.value;
+        const requiredFiles = methodFileMap[selectedMethod];
+
+        // 处理额外输出路径字段的显示/隐藏
+        const extraOutputPathsGroup = document.getElementById(
+          "extraOutputPathsGroup"
+        );
+        const defaultOutputPathGroup =
+          document.getElementById("outputPathGroup");
+
+        if (selectedMethod === "formatTemplateAssemblies") {
+          extraOutputPathsGroup.style.display = "block";
+          defaultOutputPathGroup.style.display = "none";
+        } else {
+          extraOutputPathsGroup.style.display = "none";
+          defaultOutputPathGroup.style.display = "block";
+        }
+
+        // 获取所有文件上传组
+        const fileGroups = document.querySelectorAll(".file-upload-group");
+
+        // 首先隐藏所有文件上传字段
+        fileGroups.forEach((group) => {
+          group.style.display = "none";
+          const input = group.querySelector('input[type="file"]');
+          input.required = false; // 所有文件都设为可选
+        });
+
+        // 显示所需的文件上传字段
+        requiredFiles.forEach((fileType) => {
+          const group = document.querySelector(
+            `.file-upload-group[data-file="${fileType}"]`
+          );
+          if (group) {
+            group.style.display = "block";
+          }
+        });
+      });
+
+      document
+        .getElementById("uploadForm")
+        .addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const statusDiv = document.getElementById("status");
+          const submitButton = event.target.querySelector("button");
+
+          try {
+            submitButton.disabled = true;
+            submitButton.textContent = "处理中...";
+
+            const formData = new FormData(event.target);
+
+            // 调试日志
+            console.log("Sending method:", formData.get("method"));
+            for (let [key, value] of formData.entries()) {
+              console.log(`${key}: ${value}`);
+            }
+
+            const response = await fetch("/upload", {
+              method: "POST",
+              body: formData,
+            });
+
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const result = await response.json();
+            if (result.success) {
+              statusDiv.textContent = "处理成功！";
+              statusDiv.className = "status success";
+            } else {
+              throw new Error(result.error || "处理失败");
+            }
+            statusDiv.style.display = "block";
+            console.log(result);
+          } catch (error) {
+            statusDiv.textContent = "处理失败：" + error.message;
+            statusDiv.className = "status error";
+            statusDiv.style.display = "block";
+          } finally {
+            submitButton.disabled = false;
+            submitButton.textContent = "开始处理";
+          }
+        });
+    </script>
+  </body>
+</html>
