@@ -95,7 +95,7 @@ export async function formatTemplateAssemblies(
           return data;
         });
         return {
-          _id: item.assemblyId,
+          // _id: item.assemblyId,
           name: item.Assembly_Name,
           csiSection: item.CSI_ID,
           divisionName: division.title || "",

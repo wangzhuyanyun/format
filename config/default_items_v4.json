@@ -40,7 +40,7 @@
             "CSI_ID": "27 15 00",
             "Line_Item_Name": "1,000' 24 AWG 4-Pair UTP Cat5E Data Cable",
             "output_variable": "lengthLF",
-            "formula": "(A / 200) * (P + 2H)"
+            "formula": "(A / 200) * (P + 2 * H)"
         },
         {
             "CSI_ID": "08 50 00",
@@ -212,7 +212,7 @@
             "CSI_ID": "09 29 00",
             "Line_Item_Name": "1/4\" 4X4' Cement Board",
             "output_variable": "areaSF",
-            "formula": "P * H + 2A"
+            "formula": "P * H + 2 * A"
         },
         {
             "CSI_ID": "22 41 00",
@@ -806,7 +806,7 @@
             "CSI_ID": "22 11 00",
             "Line_Item_Name": "1\" X 100' IPS 100 PSI UTY Polyethylene Pipe",
             "output_variable": "lengthLF",
-            "formula": "P + 2H"
+            "formula": "P + 2 * H"
         },
         {
             "CSI_ID": "22 11 00",
@@ -974,13 +974,13 @@
             "CSI_ID": "07 21 13",
             "Line_Item_Name": "24\" X 25' Double Reflective Insulation Roll",
             "output_variable": "areaSF",
-            "formula": "2A + (P * H)"
+            "formula": "2 * A + (P * H)"
         },
         {
             "CSI_ID": "06 22 00",
             "Line_Item_Name": "1/2\" X 10' PVC Inside Corner Self-Adhesive Flexible Caulk and Trim Molding",
             "output_variable": "lengthLF",
-            "formula": "2P + 4H"
+            "formula": "2 * P + 4 * H"
         },
         {
             "CSI_ID": "09 91 00",
@@ -1052,7 +1052,7 @@
             "CSI_ID": "07 71 00",
             "Line_Item_Name": "6\" Half Round Aluminum Gloss 80-Degree End Cap Fitting",
             "output_variable": "qtyEach",
-            "formula": "2*(P/40)"
+            "formula": "2 * (P / 40)"
         },
         {
             "CSI_ID": "22 11 00",
@@ -1070,7 +1070,7 @@
             "CSI_ID": "27 15 00",
             "Line_Item_Name": "Cat6 Solid Plenum 1,000' 23-Awg 4-Pair Unshielded Twisted Pair Cable",
             "output_variable": "lengthLF",
-            "formula": "P + 4H"
+            "formula": "P + 4 * H"
         },
         {
             "CSI_ID": "26 05 00",
@@ -1204,7 +1204,7 @@
             "CSI_ID": "06 20 00",
             "Line_Item_Name": "Crown Molding 3-1/2\"",
             "output_variable": "lengthLF",
-            "formula": "P + 2H"
+            "formula": "P + 2 * H"
         },
         {
             "CSI_ID": "06 11 00",

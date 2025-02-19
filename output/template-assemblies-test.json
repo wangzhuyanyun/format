@@ -1,38 +1,34 @@
 [
   {
-    "_id": "67a32abb2277413bec0908d1",
     "name": "Exterior Asphalt Shingle Roof (2F)",
     "csiSection": "07 31 00",
     "divisionName": "Thermal and Moisture Protection",
     "tradeType": "Roofing",
     "materialType": "assembly",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52ca728de27b97e0f9fab"
   },
   {
-    "_id": "67a32abb2277413bec0908d2",
     "name": "Exterior Wood Stud Wall (2x6, 16\" O.C.)",
     "csiSection": "06 10 00",
     "divisionName": "Wood, Plastics, and Composites",
     "tradeType": "Carpentry",
     "materialType": "assembly",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52ca728de27b97e0f9fab"
   },
   {
-    "_id": "67a32abb2277413bec0908d3",
     "name": "Interior Wall Assembly (2x4, 16\" O.C.)",
     "csiSection": "06 10 00",
     "divisionName": "Wood, Plastics, and Composites",
     "tradeType": "Carpentry",
     "materialType": "assembly",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52ca728de27b97e0f9fab"
   },
   {
-    "_id": "67a32abb2277413bec0908d4",
     "name": "Interior Floor Assembly (2x10, 16\" O.C.)",
     "csiSection": "06 10 00",
     "divisionName": "Wood, Plastics, and Composites",
     "tradeType": "Carpentry",
     "materialType": "assembly",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52ca728de27b97e0f9fab"
   }
 ]

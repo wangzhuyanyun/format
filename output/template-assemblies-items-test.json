@@ -1,6 +1,6 @@
 [
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "2X6 10' Douglas Fir #2",
     "showName": "2x6 Rafters, 16 \" O.C.",
     "csiSection": "06 11 00",
@@ -16,7 +16,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "2X8 10' Douglas Fir #2",
     "showName": "2x8 Ridge Board",
     "csiSection": "06 11 00",
@@ -32,7 +32,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "2X6 10' Douglas Fir #2",
     "showName": "2x6 Collar Ties",
     "csiSection": "06 11 00",
@@ -48,7 +48,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "2X6 10' Douglas Fir #2",
     "showName": "sub fascia",
     "csiSection": "06 11 00",
@@ -64,7 +64,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "2X6 10' #2 Kiln Dried Prime Hem-Fir Lumber",
     "showName": "Blocking & Bracing",
     "csiSection": "06 11 00",
@@ -80,7 +80,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "1/2\" 4X8' CDX Fire-Rated Pressure Treated Plywood",
     "showName": "Roof Sheathing (Plywood, 1/2\")",
     "csiSection": "06 16 00",
@@ -96,7 +96,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "48\" X 250' Synthetic Roll Roofing Underlayment",
     "showName": "Underlayment (Building Paper)",
     "csiSection": "07 25 00",
@@ -112,7 +112,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "Architectural Shingles",
     "showName": "Asphalt Shingles",
     "csiSection": "07 31 00",
@@ -128,7 +128,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "1\" X 1-1/2\" X 10' Galvanized Steel 90-DegreeFlashing",
     "showName": "Roof Flashing",
     "csiSection": "07 65 00",
@@ -144,7 +144,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "10' 29-Gauge Galvalume Steel RC2 Ridge Cap Flashing",
     "showName": "Ridge Vent / Ridge Cap",
     "csiSection": "07 62 00",
@@ -160,7 +160,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "R11 Kraft Faced Insulation - 16X96\" Batt",
     "showName": "Insulation (Fiberglass Batts)",
     "csiSection": "07 21 00",
@@ -176,7 +176,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "1/2\" 4X10' Moisture Resistant Drywall",
     "showName": "Gypsum Board (Ceiling)",
     "csiSection": "09 29 00",
@@ -192,7 +192,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "1-7/8\" X 300' Self-Adhesive Mesh Drywall Joint Tape",
     "showName": "Drywall Tape",
     "csiSection": "09 29 00",
@@ -208,7 +208,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d1",
+    "assemblyId": "67b5334c28de27b97e0fa0b9",
     "name": "1\" X 10' Paper-Faced Drywall Corner Bead",
     "showName": "Drywall Corner Bead",
     "csiSection": "09 29 00",
@@ -224,7 +224,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "2X6 20' Douglas Fir #1",
     "showName": "Wood Studs (2x6, 16\" O.C.)",
     "csiSection": "06 11 00",
@@ -240,7 +240,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "2X6 20' Douglas Fir #1",
     "showName": "Top Plates (2x6, Double)",
     "csiSection": "06 11 00",
@@ -256,7 +256,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "2X6 20' Douglas Fir #1",
     "showName": "Bottom Plate (2x6 PT)",
     "csiSection": "06 11 00",
@@ -272,7 +272,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "1/2\" 4X8' CDX Fire-Rated Pressure Treated Plywood",
     "showName": "Sheathing (1/2\" Plywood)",
     "csiSection": "06 16 00",
@@ -288,7 +288,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "48\" X 250' Synthetic Roll Roofing Underlayment",
     "showName": "Building Wrap",
     "csiSection": "07 25 00",
@@ -304,7 +304,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "19/32\" 4X8' T1-11 4-inch On-Center Ground Contact Pressure Treated Plywood",
     "showName": "Hardboard Siding",
     "csiSection": "06 16 00",
@@ -320,7 +320,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "R11 Kraft Faced Insulation - 16X96\" Batt",
     "showName": "Fiberglass Batts (2x6 Cavity)",
     "csiSection": "07 21 00",
@@ -336,7 +336,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "1/2\" 4X10' Moisture Resistant Drywall",
     "showName": "Gypsum Board (Interior)",
     "csiSection": "09 29 00",
@@ -352,7 +352,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "1-7/8\" X 300' Self-Adhesive Mesh Drywall Joint Tape",
     "showName": "Drywall Tape",
     "csiSection": "09 29 00",
@@ -368,7 +368,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d2",
+    "assemblyId": "67b5334c28de27b97e0fa0ba",
     "name": "1\" X 10' Paper-Faced Drywall Corner Bead",
     "showName": "Drywall Corner Bead",
     "csiSection": "09 29 00",
@@ -384,7 +384,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "2X4 10' #2 Kiln Dried Douglas Fir Lumber",
     "showName": "Wood Studs (2x4, 16\" O.C.)",
     "csiSection": "06 11 00",
@@ -400,7 +400,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "2X4 10' #2 Kiln Dried Douglas Fir Lumber",
     "showName": "Top Plate (2x4, Single)",
     "csiSection": "06 11 00",
@@ -416,7 +416,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "2X4 10' #2 Kiln Dried Douglas Fir Lumber",
     "showName": "Bottom Plate (2x4)",
     "csiSection": "06 11 00",
@@ -432,7 +432,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "2X6 10' #2 Kiln Dried Prime Hem-Fir Lumber",
     "showName": "Blocking & Bracing",
     "csiSection": "06 11 00",
@@ -448,7 +448,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "1/2\" 4X10' Moisture Resistant Drywall",
     "showName": "Gypsum Board (Both Sides)",
     "csiSection": "09 29 00",
@@ -464,7 +464,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "1-7/8\" X 300' Self-Adhesive Mesh Drywall Joint Tape",
     "showName": "Drywall Tape",
     "csiSection": "09 29 00",
@@ -480,7 +480,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d3",
+    "assemblyId": "67b5334c28de27b97e0fa0bb",
     "name": "1\" X 10' Paper-Faced Drywall Corner Bead",
     "showName": "Drywall Corner Bead",
     "csiSection": "09 29 00",
@@ -496,7 +496,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "2X10 10' #2 Douglas Fir Framing Lumber",
     "showName": "Floor Joists (2x10, 16\" O.C.)",
     "csiSection": "06 11 00",
@@ -512,7 +512,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "2X6 10' #2 Kiln Dried Prime Hem-Fir Lumber",
     "showName": "Bridging/Blocking",
     "csiSection": "06 11 00",
@@ -528,7 +528,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "19/32\" 4X8' Tongue and Groove Underlayment Fir Plywood",
     "showName": "Subfloor (3/4\" T&G Plywood)",
     "csiSection": "06 16 00",
@@ -544,7 +544,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "1/2\" 4X8' Plywood Underlayment",
     "showName": "Underlayment (1/4\" Plywood or Similar)",
     "csiSection": "06 16 00",
@@ -560,7 +560,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "5-9/32\" X 47-17/32\" Laminate Wood Flooring",
     "showName": "Finish Flooring",
     "csiSection": "09 65 00",
@@ -576,7 +576,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "1/2\" X 4-1/4\" X 96\" MDF Primed Colonial Baseboard Molding",
     "showName": "Baseboard Trim",
     "csiSection": "06 22 00",
@@ -592,7 +592,7 @@
     "materialType": "assembly-item"
   },
   {
-    "assemblyId": "67a32abb2277413bec0908d4",
+    "assemblyId": "67b5334c28de27b97e0fa0bc",
     "name": "1/2\" X 3/4\" Oak Baseboard Shoe Molding",
     "showName": "Shoe Molding / Quarter Round",
     "csiSection": "06 22 00",

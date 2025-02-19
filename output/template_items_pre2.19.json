@@ -12,7 +12,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "23 34 00",
@@ -27,7 +27,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "07 21 00",
@@ -42,7 +42,7 @@
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "09 91 00",
@@ -57,7 +57,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "26 51 00",
@@ -72,7 +72,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "06 16 00",
@@ -87,7 +87,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "27 15 00",
@@ -95,14 +95,14 @@
     "divisionName": "Communications",
     "unit": "LF",
     "formulas": {
-      "LF": "(A / 200) * (P + 2H)",
+      "LF": "(A / 200) * (P + 2 * H)",
       "EACH": "1",
       "SQFT": "A * 1",
       "LBS": "1"
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "08 50 00",
@@ -117,7 +117,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "22 13 00",
@@ -132,7 +132,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "08 60 00",
@@ -147,7 +147,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "26 27 00",
@@ -162,7 +162,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "03 30 00",
@@ -177,7 +177,7 @@
     },
     "tradeType": "Concrete Finishes",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c1"
+    "templateId": "67b52c7d28de27b97e0f9fa5"
   },
   {
     "csiSection": "26 27 00",
@@ -192,7 +192,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "06 22 00",
@@ -207,7 +207,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "08 32 00",
@@ -222,7 +222,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "26 27 00",
@@ -237,7 +237,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "07 21 00",
@@ -252,7 +252,7 @@
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "09 91 00",
@@ -267,7 +267,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "08 50 00",
@@ -282,7 +282,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "09 68 00",
@@ -297,7 +297,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "09 65 00",
@@ -312,7 +312,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "27 15 00",
@@ -327,7 +327,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "03 30 00",
@@ -342,7 +342,7 @@
     },
     "tradeType": "Concrete Finishes",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "22 14 00",
@@ -357,7 +357,7 @@
     },
     "tradeType": "Site Utilities",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "26 51 00",
@@ -372,7 +372,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "22 14 00",
@@ -387,7 +387,7 @@
     },
     "tradeType": "Site Utilities",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "06 11 00",
@@ -402,7 +402,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c2"
+    "templateId": "67b52c7d28de27b97e0f9fa0"
   },
   {
     "csiSection": "08 50 00",
@@ -417,7 +417,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "26 27 00",
@@ -432,7 +432,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "09 91 00",
@@ -447,7 +447,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "23 34 00",
@@ -462,7 +462,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "09 30 00",
@@ -477,7 +477,7 @@
     },
     "tradeType": "Tilework",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "08 83 00",
@@ -492,7 +492,7 @@
     },
     "tradeType": "Architectural Finish",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "08 14 00",
@@ -507,7 +507,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "09 29 00",
@@ -517,12 +517,12 @@
     "formulas": {
       "LF": "P * 1",
       "EACH": "1",
-      "SQFT": "P * H + 2A",
+      "SQFT": "P * H + 2 * A",
       "LBS": "A * 1.5"
     },
     "tradeType": "Drywall",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "22 41 00",
@@ -537,7 +537,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "10 28 00",
@@ -552,7 +552,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "22 41 00",
@@ -567,7 +567,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "22 41 00",
@@ -582,7 +582,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "12 32 00",
@@ -597,7 +597,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "26 51 00",
@@ -612,7 +612,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c3"
+    "templateId": "67b52c7d28de27b97e0f9f9b"
   },
   {
     "csiSection": "26 27 00",
@@ -627,7 +627,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "06 22 00",
@@ -642,7 +642,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "08 50 00",
@@ -657,7 +657,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "09 91 00",
@@ -672,7 +672,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "09 68 00",
@@ -687,7 +687,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "08 14 00",
@@ -702,7 +702,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "09 65 00",
@@ -717,7 +717,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "08 14 00",
@@ -732,7 +732,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "26 51 00",
@@ -747,7 +747,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "09 91 00",
@@ -762,7 +762,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "26 27 00",
@@ -777,7 +777,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c4"
+    "templateId": "67b52c7d28de27b97e0f9fa7"
   },
   {
     "csiSection": "06 22 00",
@@ -792,7 +792,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "08 14 00",
@@ -807,7 +807,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "09 64 00",
@@ -822,7 +822,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "09 91 00",
@@ -837,7 +837,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "26 51 00",
@@ -852,7 +852,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "06 25 00",
@@ -867,7 +867,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c5"
+    "templateId": "67b52c7d28de27b97e0f9f9d"
   },
   {
     "csiSection": "12 32 00",
@@ -882,7 +882,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "26 27 26",
@@ -897,7 +897,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "09 91 00",
@@ -912,7 +912,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "26 51 00",
@@ -927,7 +927,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "08 50 00",
@@ -942,7 +942,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "09 62 19",
@@ -957,7 +957,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "09 91 00",
@@ -972,7 +972,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c6"
+    "templateId": "67b52c7d28de27b97e0f9fa6"
   },
   {
     "csiSection": "08 14 00",
@@ -987,7 +987,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "26 27 26",
@@ -1002,7 +1002,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "08 50 00",
@@ -1017,7 +1017,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "33 61 00",
@@ -1032,7 +1032,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "08 36 00",
@@ -1047,7 +1047,7 @@
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "26 27 00",
@@ -1062,7 +1062,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "26 27 00",
@@ -1077,7 +1077,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "08 11 00",
@@ -1092,7 +1092,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "09 91 00",
@@ -1107,7 +1107,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c7"
+    "templateId": "67b52c7d28de27b97e0f9fa8"
   },
   {
     "csiSection": "09 62 19",
@@ -1122,7 +1122,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "06 22 00",
@@ -1137,7 +1137,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "09 91 00",
@@ -1152,7 +1152,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "09 30 00",
@@ -1167,7 +1167,7 @@
     },
     "tradeType": "Tilework",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "26 27 00",
@@ -1182,7 +1182,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "08 16 00",
@@ -1197,7 +1197,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "10 28 00",
@@ -1212,7 +1212,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "12 32 00",
@@ -1227,7 +1227,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "08 50 00",
@@ -1242,7 +1242,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "22 41 00",
@@ -1257,7 +1257,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "26 51 00",
@@ -1272,7 +1272,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "22 41 00",
@@ -1287,7 +1287,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c8"
+    "templateId": "67b52c7d28de27b97e0f9faa"
   },
   {
     "csiSection": "12 32 00",
@@ -1302,7 +1302,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "09 91 00",
@@ -1317,7 +1317,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "26 27 00",
@@ -1332,7 +1332,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "22 41 00",
@@ -1347,7 +1347,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "09 64 00",
@@ -1362,7 +1362,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "11 30 13",
@@ -1377,7 +1377,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "12 36 00",
@@ -1392,7 +1392,7 @@
     },
     "tradeType": "Stonework",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "22 41 00",
@@ -1407,7 +1407,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "22 41 00",
@@ -1422,7 +1422,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "26 51 00",
@@ -1437,7 +1437,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "11 30 13",
@@ -1452,7 +1452,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "08 50 00",
@@ -1467,7 +1467,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "11 30 13",
@@ -1482,7 +1482,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "09 91 00",
@@ -1497,7 +1497,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "11 30 13",
@@ -1512,7 +1512,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "11 30 13",
@@ -1527,7 +1527,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "12 32 00",
@@ -1542,7 +1542,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5c9"
+    "templateId": "67b52c7d28de27b97e0f9f9e"
   },
   {
     "csiSection": "26 51 00",
@@ -1557,7 +1557,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "26 24 00",
@@ -1572,7 +1572,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "22 41 00",
@@ -1587,7 +1587,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "33 61 00",
@@ -1602,7 +1602,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "08 16 00",
@@ -1617,7 +1617,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "12 32 00",
@@ -1632,7 +1632,7 @@
     },
     "tradeType": "Cabinetry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "09 91 00",
@@ -1647,7 +1647,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "22 41 00",
@@ -1662,7 +1662,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "09 65 00",
@@ -1677,7 +1677,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "11 30 13",
@@ -1692,7 +1692,7 @@
     },
     "tradeType": "Fixtures and Furnishings",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ca"
+    "templateId": "67b52c7d28de27b97e0f9fa1"
   },
   {
     "csiSection": "06 25 00",
@@ -1707,7 +1707,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "09 68 00",
@@ -1722,7 +1722,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "26 27 00",
@@ -1737,7 +1737,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "06 22 00",
@@ -1752,7 +1752,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "09 91 00",
@@ -1767,7 +1767,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "10 31 00",
@@ -1782,7 +1782,7 @@
     },
     "tradeType": "Fireplaces",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "09 64 00",
@@ -1797,7 +1797,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "27 15 00",
@@ -1812,7 +1812,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "08 50 00",
@@ -1827,7 +1827,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "09 91 00",
@@ -1842,7 +1842,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "26 56 00",
@@ -1857,7 +1857,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cb"
+    "templateId": "67b52c7d28de27b97e0f9fa2"
   },
   {
     "csiSection": "23 81 00",
@@ -1872,7 +1872,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "23 52 00",
@@ -1887,7 +1887,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "26 51 00",
@@ -1902,7 +1902,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "33 61 00",
@@ -1917,7 +1917,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "26 27 00",
@@ -1932,7 +1932,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "22 11 00",
@@ -1947,7 +1947,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "22 11 00",
@@ -1955,14 +1955,14 @@
     "divisionName": "Plumbing",
     "unit": "LF",
     "formulas": {
-      "LF": "P + 2H",
+      "LF": "P + 2 * H",
       "EACH": "1",
       "SQFT": "A * 1",
       "LBS": "1"
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "22 11 00",
@@ -1977,7 +1977,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "08 16 00",
@@ -1992,7 +1992,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "23 31 00",
@@ -2007,7 +2007,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "23 34 00",
@@ -2022,7 +2022,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "09 64 00",
@@ -2037,7 +2037,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "09 91 00",
@@ -2052,7 +2052,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "23 09 00",
@@ -2067,7 +2067,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "23 83 00",
@@ -2082,7 +2082,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cc"
+    "templateId": "67b52c7d28de27b97e0f9fa3"
   },
   {
     "csiSection": "09 65 00",
@@ -2097,7 +2097,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "06 22 00",
@@ -2112,7 +2112,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "26 51 00",
@@ -2127,7 +2127,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "26 27 00",
@@ -2142,7 +2142,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "08 16 00",
@@ -2157,7 +2157,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "08 50 00",
@@ -2172,7 +2172,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "09 91 00",
@@ -2187,7 +2187,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cd"
+    "templateId": "67b52c7d28de27b97e0f9f9f"
   },
   {
     "csiSection": "06 22 00",
@@ -2202,7 +2202,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "06 22 00",
@@ -2217,7 +2217,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "09 68 00",
@@ -2232,7 +2232,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "27 15 00",
@@ -2247,7 +2247,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "26 27 00",
@@ -2262,7 +2262,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "09 64 00",
@@ -2277,7 +2277,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "08 16 00",
@@ -2292,7 +2292,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "08 50 00",
@@ -2307,7 +2307,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "09 91 00",
@@ -2322,7 +2322,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "26 51 00",
@@ -2337,7 +2337,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5ce"
+    "templateId": "67b52c7d28de27b97e0f9fa9"
   },
   {
     "csiSection": "23 81 00",
@@ -2352,7 +2352,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 21 13",
@@ -2362,12 +2362,12 @@
     "formulas": {
       "LF": "P * 1",
       "EACH": "1",
-      "SQFT": "2A + (P * H)",
+      "SQFT": "2 * A + (P * H)",
       "LBS": "P * H * 0.5"
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "06 22 00",
@@ -2375,14 +2375,14 @@
     "divisionName": "Wood, Plastics, and Composites",
     "unit": "LF",
     "formulas": {
-      "LF": "2P + 4H",
+      "LF": "2 * P + 4 * H",
       "EACH": "1",
       "SQFT": "A * 1",
       "LBS": "H * A * 0.5"
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "09 91 00",
@@ -2397,7 +2397,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 72 00",
@@ -2412,7 +2412,7 @@
     },
     "tradeType": "Roofing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "40 66 00",
@@ -2427,7 +2427,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 71 00",
@@ -2442,7 +2442,7 @@
     },
     "tradeType": "Roofing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "03 30 00",
@@ -2457,7 +2457,7 @@
     },
     "tradeType": "Concrete Finishes",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "23 31 00",
@@ -2472,7 +2472,7 @@
     },
     "tradeType": "HVAC",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "08 11 00",
@@ -2487,7 +2487,7 @@
     },
     "tradeType": "Doors",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "06 16 00",
@@ -2502,7 +2502,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 92 00",
@@ -2517,7 +2517,7 @@
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "03 11 00",
@@ -2532,7 +2532,7 @@
     },
     "tradeType": "Foundation",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "04 22 00",
@@ -2547,7 +2547,7 @@
     },
     "tradeType": "Masonry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 71 00",
@@ -2556,13 +2556,13 @@
     "unit": "EACH",
     "formulas": {
       "LF": "P * 1",
-      "EACH": "2*(P/40)",
+      "EACH": "2 * (P / 40)",
       "SQFT": "A * 1.21",
       "LBS": "A * 0.5"
     },
     "tradeType": "Roofing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "22 11 00",
@@ -2577,7 +2577,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "22 11 00",
@@ -2592,7 +2592,7 @@
     },
     "tradeType": "Plumbing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "27 15 00",
@@ -2600,14 +2600,14 @@
     "divisionName": "Communications",
     "unit": "LF",
     "formulas": {
-      "LF": "P + 4H",
+      "LF": "P + 4 * H",
       "EACH": "1",
       "SQFT": "A * 1",
       "LBS": "1"
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 05 00",
@@ -2622,7 +2622,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 26 00",
@@ -2637,7 +2637,7 @@
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 27 00",
@@ -2652,7 +2652,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "22 14 00",
@@ -2667,7 +2667,7 @@
     },
     "tradeType": "Site Utilities",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 56 00",
@@ -2682,7 +2682,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "03 21 00",
@@ -2697,7 +2697,7 @@
     },
     "tradeType": "Structural Steel",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 27 00",
@@ -2712,7 +2712,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 05 00",
@@ -2727,7 +2727,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 27 00",
@@ -2742,7 +2742,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "06 22 00",
@@ -2757,7 +2757,7 @@
     },
     "tradeType": "Millwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 72 00",
@@ -2772,7 +2772,7 @@
     },
     "tradeType": "Roofing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "07 31 00",
@@ -2787,7 +2787,7 @@
     },
     "tradeType": "Roofing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "31 25 00",
@@ -2802,7 +2802,7 @@
     },
     "tradeType": "Earthwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "09 29 00",
@@ -2817,7 +2817,7 @@
     },
     "tradeType": "Drywall",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "32 05 00",
@@ -2832,7 +2832,7 @@
     },
     "tradeType": "EIFS",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "26 27 00",
@@ -2847,7 +2847,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "01 50 00",
@@ -2862,7 +2862,7 @@
     },
     "tradeType": "Project Management",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "03 15 00",
@@ -2877,7 +2877,7 @@
     },
     "tradeType": "Concrete Finishes",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "31 24 00",
@@ -2892,7 +2892,7 @@
     },
     "tradeType": "Earthwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "08 50 00",
@@ -2907,7 +2907,7 @@
     },
     "tradeType": "Glazing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5cf"
+    "templateId": "67b52c7d28de27b97e0f9f99"
   },
   {
     "csiSection": "09 68 00",
@@ -2922,7 +2922,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "06 20 00",
@@ -2930,14 +2930,14 @@
     "divisionName": "Wood, Plastics, and Composites",
     "unit": "LF",
     "formulas": {
-      "LF": "P + 2H",
+      "LF": "P + 2 * H",
       "EACH": "1",
       "SQFT": "A * 1",
       "LBS": "H * A * 0.5"
     },
     "tradeType": "Carpentry",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "06 11 00",
@@ -2952,7 +2952,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "26 27 00",
@@ -2967,7 +2967,7 @@
     },
     "tradeType": "Low-Voltage Systems",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "06 11 00",
@@ -2982,7 +2982,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "09 91 00",
@@ -2997,7 +2997,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "06 11 00",
@@ -3012,7 +3012,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "09 64 00",
@@ -3027,7 +3027,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "26 56 00",
@@ -3042,7 +3042,7 @@
     },
     "tradeType": "Electrical",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "06 11 00",
@@ -3057,7 +3057,7 @@
     },
     "tradeType": "Framing",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d0"
+    "templateId": "67b52c7d28de27b97e0f9fa4"
   },
   {
     "csiSection": "01 74 00",
@@ -3072,7 +3072,7 @@
     },
     "tradeType": "General Requirements",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d1"
+    "templateId": "67b52c7d28de27b97e0f9f9c"
   },
   {
     "csiSection": "02 41 00",
@@ -3087,7 +3087,7 @@
     },
     "tradeType": "Demolition",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d1"
+    "templateId": "67b52c7d28de27b97e0f9f9c"
   },
   {
     "csiSection": "31 10 00",
@@ -3102,7 +3102,7 @@
     },
     "tradeType": "Earthwork",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d1"
+    "templateId": "67b52c7d28de27b97e0f9f9c"
   },
   {
     "csiSection": "09 65 00",
@@ -3117,7 +3117,7 @@
     },
     "tradeType": "Flooring",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d2"
+    "templateId": "67b52c7d28de27b97e0f9f9a"
   },
   {
     "csiSection": "09 91 00",
@@ -3132,7 +3132,7 @@
     },
     "tradeType": "Painting",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d2"
+    "templateId": "67b52c7d28de27b97e0f9f9a"
   },
   {
     "csiSection": "06 73 00",
@@ -3147,6 +3147,6 @@
     },
     "tradeType": "Decking",
     "materialType": "item",
-    "templateId": "678de4451e8119a3eb02b5d2"
+    "templateId": "67b52c7d28de27b97e0f9f9a"
   }
 ]

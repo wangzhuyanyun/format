@@ -19,7 +19,7 @@
         {
             "CSI_ID": "07 31 00",
             "Assembly_Name": "Exterior Asphalt Shingle Roof (2F)",
-            "assemblyId":"67a32abb2277413bec0908d1",
+            "assemblyId": "67b5334c28de27b97e0fa0b9",
             "Line_Items": [
                 {
                     "CSI_ID": "06 11 00",
@@ -124,7 +124,7 @@
         {
             "CSI_ID": "06 10 00",
             "Assembly_Name": "Exterior Wood Stud Wall (2x6, 16\" O.C.)",
-            "assemblyId":"67a32abb2277413bec0908d2",
+            "assemblyId": "67b5334c28de27b97e0fa0ba",
             "Line_Items": [
                 {
                     "CSI_ID": "06 11 00",
@@ -201,7 +201,7 @@
         {
             "CSI_ID": "06 10 00",
             "Assembly_Name": "Interior Wall Assembly (2x4, 16\" O.C.)",
-            "assemblyId":"67a32abb2277413bec0908d3",
+            "assemblyId": "67b5334c28de27b97e0fa0bb",
             "Line_Items": [
                 {
                     "CSI_ID": "06 11 00",
@@ -257,7 +257,7 @@
         {
             "CSI_ID": "06 10 00",
             "Assembly_Name": "Interior Floor Assembly (2x10, 16\" O.C.)",
-            "assemblyId":"67a32abb2277413bec0908d4",
+            "assemblyId": "67b5334c28de27b97e0fa0bc",
             "Line_Items": [
                 {
                     "CSI_ID": "06 11 00",
