@@ -10,7 +10,7 @@
             "CSI_ID": "23 34 00",
             "Line_Item_Name": "14', 1HP 240 Volt Three-Phase Ceiling Fan",
             "output_variable": "qtyEach",
-            "formula": "A / 400"
+            "formula": "1"
         },
         {
             "CSI_ID": "07 21 00",
@@ -188,7 +188,7 @@
             "CSI_ID": "23 34 00",
             "Line_Item_Name": "18', 1HP 240 Volt Three-Phase Ceiling Fan",
             "output_variable": "qtyEach",
-            "formula": "A / 80"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 30 00",
@@ -206,7 +206,7 @@
             "CSI_ID": "08 14 00",
             "Line_Item_Name": "24\" X 96\" Smooth Flush Unfinished Right-Handed Solid Core Single Prehung Interior Door",
             "output_variable": "qtyEach",
-            "formula": "(H * P) / 240"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 29 00",
@@ -286,7 +286,7 @@
             "CSI_ID": "08 14 00",
             "Line_Item_Name": "24\" X 80\" 6-Panel Pine Unfinished Interior Closet Bifold Door",
             "output_variable": "qtyEach",
-            "formula": "A / 150"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 65 00",
@@ -298,13 +298,13 @@
             "CSI_ID": "08 14 00",
             "Line_Item_Name": "30\" X 96\" Right-Hand Smooth Solid Core Molded Composite MDF Single Prehung Interior Door",
             "output_variable": "qtyEach",
-            "formula": "(P * H) / 320"
+            "formula": "1"
         },
         {
             "CSI_ID": "26 51 00",
             "Line_Item_Name": "10' Indoor Aluminum Ceiling Fan",
             "output_variable": "qtyEach",
-            "formula": "A / 225"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 91 00",
@@ -330,7 +330,7 @@
             "CSI_ID": "08 14 00",
             "Line_Item_Name": "24\" X 80\" 6-Panel Pine Unfinished Interior Closet Bifold Door",
             "output_variable": "qtyEach",
-            "formula": "A / 24"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 64 00",
@@ -406,7 +406,7 @@
             "CSI_ID": "08 14 00",
             "Line_Item_Name": "2 HPC Drive Garage Door Opener and 3-Button",
             "output_variable": "qtyEach",
-            "formula": "P / 16"
+            "formula": "1"
         },
         {
             "CSI_ID": "26 27 26",
@@ -430,7 +430,7 @@
             "CSI_ID": "08 36 00",
             "Line_Item_Name": "7' X 16' 6.5 R-Value Insulated Ultra-Grain Garage Door",
             "output_variable": "qtyEach",
-            "formula": "A / 400"
+            "formula": "1"
         },
         {
             "CSI_ID": "26 27 00",
@@ -448,7 +448,7 @@
             "CSI_ID": "08 11 00",
             "Line_Item_Name": "32\" X 80\" Right-Hinge Security Door",
             "output_variable": "qtyEach",
-            "formula": "A / 400"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 91 00",
@@ -492,7 +492,7 @@
             "CSI_ID": "08 16 00",
             "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
             "output_variable": "qtyEach",
-            "formula": "P / 25"
+            "formula": "1"
         },
         {
             "CSI_ID": "10 28 00",
@@ -626,7 +626,7 @@
             "CSI_ID": "11 30 13",
             "Line_Item_Name": "15 cu. ft. 4-Door French Door Refrigerator",
             "output_variable": "qtyEach",
-            "formula": "A / 250"
+            "formula": "1"
         },
         {
             "CSI_ID": "12 32 00",
@@ -664,7 +664,7 @@
             "CSI_ID": "08 16 00",
             "Line_Item_Name": "32\" X 80\" 6-Panel Left-Hand/Inswing Primed Fiberglass Prehung Front Door",
             "output_variable": "qtyEach",
-            "formula": "A / 70"
+            "formula": "1"
         },
         {
             "CSI_ID": "12 32 00",
@@ -830,7 +830,7 @@
             "CSI_ID": "23 34 00",
             "Line_Item_Name": "12\" Three Speed Exhaust Shutter Fan 1,100 CFM 115V",
             "output_variable": "qtyEach",
-            "formula": "(8 * A * H) / 66000"
+            "formula": "1"
         },
         {
             "CSI_ID": "09 64 00",
@@ -1040,7 +1040,7 @@
             "CSI_ID": "03 11 00",
             "Line_Item_Name": "Plywood Form Panels 3/4\" x 4' x 8'",
             "output_variable": "areaSF",
-            "formula": "2 * P * H"
+            "formula": "2.6 * P + A"
         },
         {
             "CSI_ID": "04 22 00",
@@ -1171,8 +1171,8 @@
         {
             "CSI_ID": "01 50 00",
             "Line_Item_Name": "Temporary Construction Fence",
-            "output_variable": "areaSF",
-            "formula": "P * 6"
+            "output_variable": "lengthLF",
+            "formula": "P * 1.5"
         },
         {
             "CSI_ID": "03 15 00",
@@ -1185,12 +1185,6 @@
             "Line_Item_Name": "Compacted Fill Material",
             "output_variable": "areaSF",
             "formula": "A + 2 * P"
-        },
-        {
-            "CSI_ID": "08 50 00",
-            "Line_Item_Name": "35.5 in. x 59.5 in. Classic Series White Vinyl Insulated Single Hung Window",
-            "output_variable": "qtyEach",
-            "formula": "A / 300"
         }
     ],
     "Staircase": [
